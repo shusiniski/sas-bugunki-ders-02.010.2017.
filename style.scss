@@ -1,0 +1,24 @@
+$mainWidth:1024px;
+$mainColor:red;
+$fullWidth:100%;
+
+fullWidth{
+	width:$fullWidth;
+
+}
+.normalWidth{
+	width:$mainWidth;
+	margin:0 auto;
+
+}
+
+html,body{
+	margin:0;
+}
+
+#header{
+	
+}
+@import "header";
+@import "news";
+@import "content";
